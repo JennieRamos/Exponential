@@ -9,7 +9,7 @@ function fetchExpo()
       url: siteloc + scriptloc + "make_exponentiater.py",
 
       data: {
-				 result:$("#result").val()
+				 result:$("#inputno").val()
 				
 	    } 
       success: function (res) {
@@ -24,7 +24,7 @@ function fetchExpo1()
   $.ajax({
       url: siteloc + scriptloc + "make_exponentiater1.py",
       data: {
-				 result:$("#result").val()  
+				 result:$("#inputno").val()  
 				
 	    } 
       success: function (res) {
